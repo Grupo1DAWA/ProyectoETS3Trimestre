@@ -1,0 +1,35 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLState</id><coordinates><x>130</x><y>100</y><w>90</w><h>40</h></coordinates><panel_attributes>Idle Full
+Health</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>510</x><y>100</y><w>90</w><h>40</h></coordinates><panel_attributes>Idle Mid
+Health</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>900</x><y>100</y><w>90</w><h>40</h></coordinates><panel_attributes>Idle Low
+Health</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>1130</x><y>300</y><w>90</w><h>40</h></coordinates><panel_attributes>Die</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>90</y><w>320</w><h>40</h></coordinates><panel_attributes>lt=-&gt;
+PlayerHealth &lt; 100 &amp;&amp; PlayerHealth &gt;= 50</panel_attributes><additional_attributes>10;20;300;20</additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>90</y><w>330</w><h>40</h></coordinates><panel_attributes>lt=-&gt;
+PlayerHealth &lt; 50 &amp;&amp; PlayerHealth &gt;= 25</panel_attributes><additional_attributes>10;20;310;20</additional_attributes></element><element><id>Relation</id><coordinates><x>980</x><y>100</y><w>260</w><h>220</h></coordinates><panel_attributes>lt=-&gt;
+PlayerHealth = 0</panel_attributes><additional_attributes>10;20;200;20;200;200</additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>110</y><w>320</w><h>50</h></coordinates><panel_attributes>lt=-&gt;
+
+PlayerHealth = 100</panel_attributes><additional_attributes>300;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>590</x><y>110</y><w>330</w><h>50</h></coordinates><panel_attributes>lt=-&gt;
+
+PlayerHealth = 50</panel_attributes><additional_attributes>310;20;10;20</additional_attributes></element><element><id>UMLState</id><coordinates><x>510</x><y>340</y><w>90</w><h>40</h></coordinates><panel_attributes>Mid Health
+Walking</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>510</x><y>620</y><w>90</w><h>40</h></coordinates><panel_attributes>Mid Health
+Running</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>900</x><y>340</y><w>90</w><h>40</h></coordinates><panel_attributes>Low Health
+Walking</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>900</x><y>620</y><w>90</w><h>40</h></coordinates><panel_attributes>Low Health
+Running</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>130</x><y>340</y><w>90</w><h>40</h></coordinates><panel_attributes>Full Health
+Walking</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>130</x><y>620</y><w>90</w><h>40</h></coordinates><panel_attributes>Full Health
+Running</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>80</x><y>130</y><w>160</w><h>230</h></coordinates><panel_attributes>lt=-&gt;
+PlayerMoveSpeed &gt; 0</panel_attributes><additional_attributes>70;10;10;130;70;210</additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>130</y><w>190</w><h>230</h></coordinates><panel_attributes>lt=-&gt;
+PlayerMoveSpeed = 0</panel_attributes><additional_attributes>10;210;60;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>370</y><w>150</w><h>270</h></coordinates><panel_attributes>lt=-&gt;
+Matener botón
+de correr</panel_attributes><additional_attributes>10;10;50;100;10;250</additional_attributes></element><element><id>Relation</id><coordinates><x>90</x><y>370</y><w>110</w><h>270</h></coordinates><panel_attributes>lt=-&gt;
+Soltar botón
+ de correr</panel_attributes><additional_attributes>60;250;10;160;60;10</additional_attributes></element><element><id>Relation</id><coordinates><x>470</x><y>370</y><w>110</w><h>270</h></coordinates><panel_attributes>lt=-&gt;
+Soltar botón
+ de correr</panel_attributes><additional_attributes>60;250;10;160;60;10</additional_attributes></element><element><id>Relation</id><coordinates><x>570</x><y>370</y><w>150</w><h>270</h></coordinates><panel_attributes>lt=-&gt;
+Matener botón
+de correr</panel_attributes><additional_attributes>10;10;50;100;10;250</additional_attributes></element><element><id>Relation</id><coordinates><x>570</x><y>130</y><w>190</w><h>230</h></coordinates><panel_attributes>lt=-&gt;
+PlayerMoveSpeed = 0</panel_attributes><additional_attributes>10;210;60;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>460</x><y>130</y><w>160</w><h>230</h></coordinates><panel_attributes>lt=-&gt;
+PlayerMoveSpeed &gt; 0</panel_attributes><additional_attributes>70;10;10;130;70;210</additional_attributes></element><element><id>Relation</id><coordinates><x>860</x><y>370</y><w>110</w><h>270</h></coordinates><panel_attributes>lt=-&gt;
+Soltar botón
+ de correr</panel_attributes><additional_attributes>60;250;10;160;60;10</additional_attributes></element><element><id>Relation</id><coordinates><x>960</x><y>370</y><w>150</w><h>270</h></coordinates><panel_attributes>lt=-&gt;
+Matener botón
+de correr</panel_attributes><additional_attributes>10;10;50;100;10;250</additional_attributes></element><element><id>Relation</id><coordinates><x>960</x><y>130</y><w>190</w><h>230</h></coordinates><panel_attributes>lt=-&gt;
+PlayerMoveSpeed = 0</panel_attributes><additional_attributes>10;210;60;70;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>850</x><y>130</y><w>160</w><h>230</h></coordinates><panel_attributes>lt=-&gt;
+PlayerMoveSpeed &gt; 0</panel_attributes><additional_attributes>70;10;10;130;70;210</additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>60</x><y>110</y><w>20</w><h>20</h></coordinates><panel_attributes>type=initial</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>1170</x><y>380</y><w>20</w><h>20</h></coordinates><panel_attributes>type=final</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1170</x><y>330</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>60</x><y>110</y><w>90</w><h>30</h></coordinates><panel_attributes>lt=-</panel_attributes><additional_attributes>10;10;70;10</additional_attributes></element></diagram>
