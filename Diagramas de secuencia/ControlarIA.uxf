@@ -1,0 +1,19 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text></help_text><element><id>UMLGeneric</id><coordinates><x>370</x><y>0</y><w>100</w><h>30</h></coordinates><panel_attributes>Jugador
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>700</x><y>0</y><w>100</w><h>30</h></coordinates><panel_attributes>Sistema
+bg=green</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>20</y><w>30</w><h>620</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;600</additional_attributes></element><element><id>Relation</id><coordinates><x>740</x><y>20</y><w>30</w><h>620</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;10;10;600</additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>120</y><w>360</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+Manda su localización en el mapa</panel_attributes><additional_attributes>340;20;10;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>740</x><y>140</y><w>20</w><h>160</h></coordinates><panel_attributes>
+bg=green</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLFrame</id><coordinates><x>150</x><y>150</y><w>750</w><h>430</h></coordinates><panel_attributes>Alt -&gt; jugador no está en zona de combate
+--
+
+
+
+-.</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>270</y><w>360</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+Genera enemigos y controla sus IAs</panel_attributes><additional_attributes>10;20;340;20</additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>180</y><w>360</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+No genera enemigos y se mantiene a la espera</panel_attributes><additional_attributes>10;20;340;20</additional_attributes></element><element><id>Relation</id><coordinates><x>750</x><y>80</y><w>180</w><h>80</h></coordinates><panel_attributes>lt=&lt;-
+Validar zona de combate</panel_attributes><additional_attributes>10;60;10;20;100;20;100;60;10;60</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>410</x><y>290</y><w>20</w><h>100</h></coordinates><panel_attributes>
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>240</y><w>150</w><h>70</h></coordinates><panel_attributes>lt=&lt;-
+Lucha contra enemigos</panel_attributes><additional_attributes>130;50;130;20;70;20;70;50;130;50</additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>370</y><w>360</w><h>40</h></coordinates><panel_attributes>lt=&lt;-
+Acaba con los enemigos de la zona</panel_attributes><additional_attributes>340;20;10;20</additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>740</x><y>390</y><w>20</w><h>130</h></coordinates><panel_attributes>
+bg=green</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>450</y><w>360</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+Elimina los cuerpos para liberar memoria</panel_attributes><additional_attributes>10;20;340;20</additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>500</y><w>360</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+Permite avanzar al siguiente mapa</panel_attributes><additional_attributes>10;20;340;20</additional_attributes></element><element><id>UMLFrame</id><coordinates><x>180</x><y>490</y><w>680</w><h>60</h></coordinates><panel_attributes>Opt -&gt; zona de combate de jefe</panel_attributes><additional_attributes></additional_attributes></element></diagram>
